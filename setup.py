@@ -78,7 +78,7 @@ setup(
                 "fused_bilagrid/ext.cpp"
             ],
             extra_compile_args={
-                "cxx": ["-O3"],
+                "cxx": ["/O2"],
                 "nvcc": nvcc_args
             }
         )
